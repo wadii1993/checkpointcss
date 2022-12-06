@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: roboto , Arial, Helvetica, sans-serif;
+
+}
+
+.navli {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+header {
+    height: 30px;
+    background-color: aqua;
+    padding-top: 15px;
+
+}
+body {
+    background-image: url(https://previews.123rf.com/images/foxaon/foxaon1603/foxaon160301170/53728448-ciel-bleu-abstrait-fond-d-%C3%A9cran.jpg);
+}
+a {
+    text-decoration: none;
+}
+
+.montext {
+    background-color: gray;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    font-style: oblique;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    color: red;
+    text-transform: uppercase;
+    padding-top: 20px;
+    
+}
+
+#divimg img {
+    height: auto;
+    width: 100%;
+    
+}
+.mytable {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    color: white;
+    border-color: blueviolet;
+    font-style: italic;
+    background-color: black;
+    text-align: left;
+    
+}
+
+
+h3 {
+    padding-top: 5px;
+    padding-left: 15px;
+    color: darkred;
+    text-align: left;
+    text-decoration: underline;
+    text-shadow: 10px 12px 12px 12px;
+}
+
+.titletext {
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+
+.position {
+    margin-left: 10px;
+}
+.button {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.button2{
+    margin-top: 5px ;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+.button:hover{
+    background-color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button2:active{
+    background-color: yellow;
+}
+
+.formulaire {
+    margin-left: 550px;
+}
